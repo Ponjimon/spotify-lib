@@ -6,8 +6,8 @@ var events = require("events");
 var SpotifyClient = function () {
     events.EventEmitter.call(this);
     var self = this;
-    var base = "https://kdghnzhmwr.spotilocal.com:4370";
-    var headers = { Origin: "https://open.spotify.com" };
+    self.base = "https://kdghnzhmwr.spotilocal.com:4370";
+    self.headers = { Origin: "https://open.spotify.com" };
 
     request({url : "https://open.spotify.com/token"}, function (error, response, body) {
         self.oauth = JSON.parse(body).t;

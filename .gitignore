@@ -1,0 +1,7 @@
+.ntvs_analysis.dat
+*.njsproj
+node_modules/*
+bin/Microsoft.NodejsTools.WebRole.dll
+obj/Debug/hitbox-chat-lib.njsproj.FileListAbsolute.txt
+*.cache
+npm-debug.log

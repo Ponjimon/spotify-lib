@@ -1,6 +1,6 @@
 {
   "name": "spotify-lib",
-  "version": "1.0.1",
+  "version": "1.5.0",
   "description": "A spotify library for nodeJS",
   "main": "index.js",
   "dependencies": {
